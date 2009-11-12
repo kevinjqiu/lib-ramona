@@ -28,6 +28,7 @@
                 <artifactId>clojure-maven-plugin</artifactId>
                 <version>1.2-SNAPSHOT</version>
                 <configuration>
+                    <script>src/main/clojure/main.clj</script>
                     <testScript>src/test/clojure/test_lib_ramona.clj</testScript>
                 </configuration>
             </plugin>
